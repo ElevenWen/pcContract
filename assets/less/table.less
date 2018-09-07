@@ -1,0 +1,247 @@
+// 列表页
+// 页面标题
+// .head-title {
+//   height: 59px;
+//   line-height: 59px;
+//   font-size: 18px;
+//   color: #000;
+//   font-weight: bold;
+//   padding-left: 20px;
+// }
+
+//tab选项卡
+.tabs {
+  border-bottom: 1px solid #cecece;
+  .tab-ul {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -1px;
+  }
+  .tab-item {
+    display: inline-block;
+    margin-right: 4px;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cecece;
+    border-radius: 4px 4px 0 0;
+    background-color: #fafafa;
+    transition: color .3s cubic-bezier(.645, .045, .355, 1), padding .3s cubic-bezier(.645, .045, .355, 1);
+    cursor: pointer;
+    &:hover {
+      color: #ff3e08;
+    }
+    &:first-of-type {
+      margin-left: 16px;
+    }
+    &.active {
+      font-size: 16px;
+      height: 41px;
+      width: 90px;
+      border-color: #ff3e08 #ff3e08 transparent #ff3e08; // border-bottom: none;
+      color: #ff3e08;
+      background-color: #fff;
+    }
+  }
+}
+
+.ec-list {
+  padding: 0 20px;
+}
+
+// 搜索列表
+.query {
+  margin-top: 30px;
+  >ul {
+    font-size: 0;
+    -webkit-text-size-adjust: 100%;
+  }
+  .query-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px 30px 0;
+    .query-text,
+    .query-input,
+    .query-btn {
+      // display: inline-block;
+      height: 26px;
+      font-size: 14px;
+      line-height: 1;
+      color: #000;
+    }
+    .query-btn{
+      cursor: pointer;
+    }
+    .query-input {
+      margin-left: 10px;
+      padding: 6px;
+      width: 200px;
+      border: 1px solid #e5e5e5;
+      border-radius: 2px;
+      background-color: #fff;
+    } // 重置选择日期范围
+    &.time {
+      .el-input__inner {
+        border-color: #e5e5e5;
+        border-radius: 2px;
+      }
+      .el-date-editor--daterange.el-input,
+      .el-date-editor--daterange.el-input__inner {
+        width: 280px;
+        height: 26px;
+      }
+      /deep/ .el-date-editor .el-range-separator {
+        width: auto;
+        font-size: 14px;
+      }
+    } // &.time{
+    //   .query-text{
+    //     margin: 0 10px;
+    //   }
+    //   .query-input {
+    //     margin-left: 0;
+    //     width: 120px;
+    //   }
+    //   .el-icon-date{
+    //     margin-left: -20px;
+    //     font-size: 14px;
+    //   }
+    // }
+    .query-btn {
+      display: block;
+      padding: 0 11px;
+      line-height: 26px; // text-align: center;
+      border-radius: 2px;
+      color: #fff;
+      background-color: #ff3e08;
+    }
+  }
+}
+
+// 列表
+.table-box {
+  padding-bottom: 20px;
+  //修改element-ui tabs默认样式
+  // /deep/ .el-tabs--card>.el-tabs__header {
+  //   margin: 0;
+  //   border-bottom: 1px solid #cecece;
+  //   .el-tabs__nav {
+  //     border: none;
+  //   }
+  //   .el-tabs__item {
+  //     margin-left: 4px;
+  //     padding: 0;
+  //     width: 90px;
+  //     text-align: center;
+  //     border-top: 1px solid #cecece;
+  //     border-right: 1px solid #cecece;
+  //     border-bottom: 1px solid #cecece;
+  //     border-radius: 4px 4px 0 0;
+  //     background-color: #fafafa;
+  //     &:hover {
+  //       color: #ff3e08;
+  //     }
+  //     &:first-child {
+  //       border-left: 1px solid #cecece;
+  //       margin-left: 16px;
+  //     }
+  //     &.is-active {
+  //       font-size: 16px;
+  //       height: 41px;
+  //       width: 90px;
+  //       border-right: 1px solid #ff3e08;
+  //       border-top: 1px solid #ff3e08;
+  //       border-left: 1px solid #ff3e08 !important;
+  //       border-bottom: none;
+  //       color: #ff3e08;
+  //       background-color: #fff;
+  //     }
+  //   }
+  // } // tab内容区
+  // .el-tab-pane {
+  //   padding: 0 20px;
+  // }
+  //表格标题
+  /deep/ .el-table__header th {
+    color: #555555;
+    background-color: #efefef;
+    .cell {
+      font-weight: bold;
+    }
+  } //表格主体
+  /deep/ .el-table__body {
+    .el-button {
+      padding-top: 0;
+      width: 50px;
+      height: 26px;
+      line-height: 25px;
+      text-align: center;
+      color: #fff;
+      background-color: #0096ff;
+    }
+  } //分页
+  .pagination {
+    margin: 20px 0;
+    overflow: hidden;
+    .el-pagination {
+      float: right;
+    }
+  }
+}
+
+// 列表无数据
+.list-empty {
+  padding: 300px 0; // height: 800px;
+  font-size: 14px;
+  text-align: center;
+  color: #888;
+  background: #fff url(~assets/images/nodataShow.png) no-repeat center 140px;
+}
+
+// 自定义弹窗内容
+.layer-dialog {
+  .refusal-msg {
+    //输入拒签原因
+    padding: 10px;
+    width: 360px;
+    min-width: 360px;
+    max-width: 600px;
+    height: 120px;
+    min-height: 120px;
+    max-height: 300px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #e8e8e9;
+    color: #333;
+    background-color: #ffffff;
+  }
+  .reason-msg{
+    // 拒签原因弹窗
+    width: 360px;
+  }
+  .hasIcon,
+  .Icon {
+    padding: 20px 0 0 155px;
+    padding-right: 10px;
+    width: 340px;
+    min-height: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    span{
+      display: inline-block;
+      height: 100%;
+      padding-top: 10px;
+    }
+    .img {
+      position: absolute;
+      margin-left: -60px;
+      vertical-align: middle;
+    }
+  }
+  .hasIcon {
+    padding-left: 80px;
+  }
+}

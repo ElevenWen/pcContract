@@ -1,0 +1,283 @@
+#myTempalte .ContensWrap {
+  background-color: #ffffff;
+}
+#myTempalte .ContensWrap .title {
+  padding: 0 20px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #cecece;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+#myTempalte .ContensWrap .title .back {
+  padding-left: 10px;
+  margin-right: 20px;
+  font-family: SimSun;
+  font-size: 16px;
+  color: #666666;
+  background: url('~assets/images/back.png') no-repeat;
+}
+#myTempalte .ContensWrap .title .back:hover {
+  cursor: pointer;
+}
+#myTempalte .ContensWrap .serchConditions {
+  margin: 30px 20px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+}
+#myTempalte .ContensWrap .serchConditions span {
+  color: #000000;
+  margin-right: 10px;
+}
+#myTempalte .ContensWrap .serchConditions input {
+  margin-right: 30px;
+  padding-left: 5px;
+  width: 200px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: solid 1px #e5e5e5;
+}
+#myTempalte .ContensWrap .serchConditions select {
+  margin-right: 30px;
+  width: 140px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: solid 1px #e5e5e5;
+}
+#myTempalte .ContensWrap .serchConditions .clickSearch {
+  padding: 5px 9px;
+  background-color: #ff3e08;
+  border-radius: 2px;
+  color: #ffffff;
+}
+#myTempalte .ContensWrap .serchConditions .clickSearch:hover {
+  cursor: pointer;
+}
+#myTempalte .ContensWrap .serchConditions .addNewTemp {
+  padding: 4px 8px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: solid 1px #ff3e08;
+  color: #ff3e08;
+}
+#myTempalte .ContensWrap .serchConditions .addNewTemp:hover {
+  cursor: pointer;
+}
+#myTempalte .ContensWrap .contenTabel {
+  position: relative;
+  width: calc(68%);
+  margin: 10px 16px;
+  border: solid 1px #e1e1e1;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle {
+  width: 100%;
+  height: 36px;
+  background-color: #efefef;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li {
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  font-size: 14px;
+  color: #555555;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li:nth-child(1) {
+  width: 6.75%;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li:nth-child(2) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li:nth-child(3) {
+  width: 28.69%;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li:nth-child(4) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li:nth-child(5) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tabelTitle ul li:nth-child(6) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap {
+  width: 100%;
+  height: 550px;
+  overflow-y: auto;
+  text-align: center;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap img {
+  margin: 50px auto 30px;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap p {
+  margin-bottom: 30px;
+  color: #888888;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap .addSysTemp {
+  background-color: #ff3e08;
+  padding: 4px 10px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap .addSysTemp:hover {
+  cursor: pointer;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e4e4e4;
+  overflow: hidden;
+  transition: 0.4s all;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul:hover {
+  background-color: #D9E8F8;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li {
+  float: left;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  border-right: 1px solid #e4e4e4;
+  color: #555555;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(1) {
+  width: 6.75%;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(1) .checkItem {
+  padding: 0 9px;
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(1) .checkItem:hover {
+  cursor: pointer;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(2) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(3) {
+  padding: 0 10px;
+  width: 28.69%;
+  text-align: left;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(4) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(5) {
+  width: 16.03%;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(6) {
+  width: 16.03%;
+  border-right: none;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(6) span,
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(6) a {
+  padding: 4px 8px;
+  margin-right: 20px;
+  background-color: #0096ff;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+}
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(6) span:hover,
+#myTempalte .ContensWrap .contenTabel .tablelistWrap ul li:nth-child(6) a:hover {
+  cursor: pointer;
+}
+#myTempalte .ContensWrap .contenTabel .noDataWrap {
+  min-height: 460px;
+}
+#myTempalte .ContensWrap .systemTempalteWrap .title {
+  border-bottom: none;
+}
+#myTempalte .ContensWrap .systemTempalteWrap .serchConditions {
+  margin: 20px;
+}
+#myTempalte .ContensWrap .systemTempalteWrap .serchConditions input {
+  width: 300px;
+}
+#myTempalte .ContensWrap .systemTempalteWrap .checkActivated {
+  background: url('~assets/images/check_true.png') no-repeat;
+  background-size: 100% 100%;
+  border: none !important;
+}
+#myTempalte .pagination {
+  margin: 20px;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+}
+#myTempalte .pagination span {
+  padding: 3px 6px;
+  background-color: #ff3e08;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+}
+#myTempalte .pagination span:hover {
+  cursor: pointer;
+}
+#myTempalte .pagination .checkAll {
+  margin: 0 43px 0 6px;
+  padding: 0 9px;
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+}
+#myTempalte .pagination .el-pagination {
+  float: right;
+}
+#myTempalte /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+  color: #ff3e08;
+  font-size: 16px;
+  background: #fff;
+  border-bottom: none;
+  height: 41px;
+  width: 90px;
+  border-right: 1px solid #ff3e08;
+  border-top: 1px solid #ff3e08;
+  border-left: 1px solid #ff3e08 !important;
+}
+#myTempalte /deep/ .el-tabs--card > .el-tabs__header {
+  border-bottom: 1px solid #cecece;
+}
+#myTempalte /deep/ .el-tabs__item:hover {
+  color: inherit;
+}
+#myTempalte /deep/ .el-tabs__item.is-active:hover {
+  color: #ff3e08;
+}
+#myTempalte /deep/ .el-tabs--card > .el-tabs__header .el-tabs__nav {
+  border: none;
+}
+#myTempalte /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item {
+  border-right: 1px solid #cecece;
+  border-top: 1px solid #cecece;
+  margin-left: 4px;
+  background: #fafafa;
+  border-bottom: 1px solid #cecece;
+  width: 90px;
+  text-align: center;
+  padding: 0;
+  border-radius: 4px 4px 0 0;
+}
+#myTempalte /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item:first-child {
+  border-left: 1px solid #cecece;
+  margin-left: 16px;
+}

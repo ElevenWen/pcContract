@@ -1,0 +1,289 @@
+.title {
+  padding: 0 20px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #cecece;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+.title .back {
+  padding-left: 10px;
+  margin-right: 20px;
+  font-family: SimSun;
+  font-size: 16px;
+  color: #666666;
+  background: url('~assets/images/back.png') no-repeat;
+}
+.title .back:hover {
+  cursor: pointer;
+}
+#uploadContract .formConten {
+  padding: 30px;
+  width: 100%;
+}
+#uploadContract .formConten .formWarpOne {
+  border-bottom: 1px solid #e5e5e5;
+}
+#uploadContract .formConten .formWarpOne .contratName {
+  font-size: 16px;
+  color: #000000;
+}
+#uploadContract .formConten .formWarpOne .contratName .piont {
+  color: #ff0000;
+}
+#uploadContract .formConten .formWarpOne .contratName .name {
+  margin: 0 10px;
+}
+#uploadContract .formConten .formWarpOne .contratName input {
+  padding-left: 6px;
+  width: 300px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: solid 1px #e5e5e5;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload {
+  position: relative;
+  margin: 30px 0;
+  width: 262px;
+  height: 168px;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .showImg {
+  position: relative;
+  width: 132px;
+  height: 168px;
+  border: 1px solid #666666;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .showImg img {
+  width: 100%;
+  height: 100%;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .showImg > div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.4;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .btn {
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 16px;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .btn:hover {
+  cursor: pointer;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .btn_look {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ff3e08;
+  color: #ffffff;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .btn_upload {
+  position: absolute;
+  right: 0;
+  top: 66px;
+  border: solid 1px #888888;
+  background-color: #ffffff;
+  color: #000000;
+}
+#uploadContract .formConten .formWarpOne .lookAndUpload .btn_upload #file {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 20;
+  opacity: 0;
+}
+#uploadContract .formConten .formWrapTwo h2 {
+  margin: 26px 0;
+  font-size: 16px;
+  color: #000000;
+}
+#uploadContract .formConten .formWrapTwo > div {
+  margin-top: 30px;
+}
+#uploadContract .formConten .formWrapTwo .head_title {
+  font-size: 16px;
+  color: #000000;
+}
+#uploadContract .formConten .formWrapTwo .head_title .icon {
+  padding: 0 2px;
+  margin-right: 10px;
+  background-color: #ff6508;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel {
+  position: relative;
+  width: 800px;
+  margin: 20px 0;
+  border: solid 1px #e1e1e1;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tabelTitle {
+  width: 100%;
+  height: 36px;
+  background-color: #efefef;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tabelTitle ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tabelTitle ul li {
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  font-size: 14px;
+  color: #555555;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tabelTitle ul li:nth-child(1) {
+  width: 45%;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tabelTitle ul li:nth-child(2) {
+  width: 27.5%;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tabelTitle ul li:nth-child(3) {
+  width: 27.5%;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap {
+  width: 100%;
+  text-align: center;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul li {
+  float: left;
+  text-align: center;
+  height: 60px;
+  padding-top: 24px;
+  font-size: 14px;
+  border-right: 1px solid #e4e4e4;
+  color: #555555;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul li:nth-child(1) {
+  padding-left: 10px;
+  width: 45%;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul li:nth-child(2) {
+  width: 27.5%;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul li:nth-child(3) {
+  width: 27.5%;
+  border-right: none;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul li:nth-child(3) span {
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #0096ff;
+}
+#uploadContract .formConten .formWrapTwo .contenTabel .tablelistWrap ul li:nth-child(3) span:hover {
+  cursor: pointer;
+}
+.twoBtn {
+  margin-top: 30px;
+  overflow: hidden;
+}
+.twoBtn > div {
+  float: left;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 16px;
+}
+.twoBtn > div:hover {
+  cursor: pointer;
+}
+.twoBtn .sendContract {
+  margin-right: 20px;
+  background-color: #ff3e08;
+  color: #ffffff;
+}
+.twoBtn .saveDraft {
+  border: solid 1px #888888;
+  background-color: #ffffff;
+  color: #000000;
+}
+.el-dropdown-menu__item {
+  font-size: 16px !important;
+  color: #000000 !important;
+}
+#uploadContract /deep/ .el-dropdown-link {
+  padding: 6px 12px;
+  background: #ff3e08;
+  color: #ffffff;
+  border-radius: 2px;
+}
+#uploadContract .tipsContent {
+  width: 100%;
+  height: 100%;
+}
+#uploadContract .tipsContent .errorImg {
+  width: 46px;
+  height: 46px;
+  vertical-align: middle;
+}
+#uploadContract .tipsContent .errorrr {
+  line-height: 46px;
+  margin-left: 30px;
+}
+#uploadContract .tipsContent .errBtn {
+  margin: 30px auto;
+}
+#uploadContract .tipsContent .errBtn .sure,
+#uploadContract .tipsContent .errBtn .cancel {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#uploadContract .tipsContent .errBtn .sure {
+  margin-left: 75px;
+  background: #ff3e08;
+  color: #fff;
+}
+#uploadContract .tipsContent .errBtn .cancel {
+  border: 1px solid #e6e6e6;
+  margin-left: 20px;
+}
+#uploadContract /deep/ .el-dialog__header {
+  height: 40px;
+  background: #fcfcfd;
+  padding: 0;
+  padding-left: 20px;
+  border-bottom: 1px solid #eee;
+  line-height: 40px;
+}
+#uploadContract /deep/ .el-dialog__header .el-dialog__title {
+  font-size: 16px;
+  color: #4d4d4d;
+}
+#uploadContract /deep/ .el-dialog__header .el-dialog__headerbtn {
+  top: 10px;
+}

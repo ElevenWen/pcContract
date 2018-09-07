@@ -1,0 +1,286 @@
+.myTempalte .middleWrap{  
+   // height: calc(100% - 78px); 
+   
+}
+
+#myTempalte .ContensWrap{
+    background-color: #ffffff;
+    .title{
+        padding: 0 20px;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid #cecece;
+        font-family: MicrosoftYaHei-Bold;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000000;
+        .back{
+            padding-left: 10px;
+            margin-right: 20px;
+            font-family: SimSun;
+            font-size: 16px;
+            color: #666666;
+            &:hover{cursor: pointer;}
+            background: url('~assets/images/back.png') no-repeat;
+        }
+    }
+    .serchConditions{
+        margin: 30px 20px;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-family: MicrosoftYaHei;
+        font-size: 14px;
+        span{
+            color: #000000;
+            margin-right: 10px;
+        }
+        input{
+            margin-right: 30px;
+            padding-left: 5px;
+            width: 200px;
+            height: 30px;
+            background-color: #ffffff;
+            border-radius: 2px;
+            border: solid 1px #e5e5e5;
+        }
+        select{
+            margin-right: 30px;
+            width: 140px;
+            height: 30px;
+            background-color: #ffffff;
+            border-radius: 2px;
+            border: solid 1px #e5e5e5;
+        }
+        .clickSearch{
+            padding: 5px 9px;
+            background-color: #ff3e08;
+            border-radius: 2px;
+            color: #ffffff;
+            &:hover{cursor: pointer;}
+        }
+        .addNewTemp{
+            padding: 4px 8px;
+            background-color: #ffffff;
+            border-radius: 2px;
+            border: solid 1px #ff3e08;
+            color: #ff3e08;
+            &:hover{cursor: pointer;}
+        }
+    }
+    .contenTabel{
+        position: relative;
+        width: calc(100% - 32px);
+        //height: calc(100% - 60px);
+        margin: 10px 16px;
+        border: solid 1px #e1e1e1;
+        .tabelTitle{
+            width: 100%;
+            height: 36px;
+            background-color: #efefef;
+            ul{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;               
+                li{ 
+                    float: left;
+                    text-align: center;
+                    line-height: 36px;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #555555;
+                    &:nth-child(1){
+                        width: 6.75%;
+                    }
+                    &:nth-child(2){
+                        width: 16.03%;               
+                    }
+                    &:nth-child(3){
+                        width: 28.69%;
+                    }
+                    &:nth-child(4){
+                        width: 16.03%;
+                    }
+                    &:nth-child(5){
+                        width: 16.03%;
+                    }
+                    &:nth-child(6){
+                        width: 16.03%;
+                    }
+                }
+            }
+        }
+        .tablelistWrap{
+            width: 100%;     
+            height: 550px;     
+            overflow-y: auto; 
+            text-align: center;
+            img{
+                margin: 50px auto 30px;
+            }
+            p{  
+                margin-bottom: 30px;
+                color: #888888;              
+            }
+            .addSysTemp{
+                background-color: #ff3e08;
+                padding: 4px 10px;       
+                border-radius: 2px;       
+                font-size: 14px;
+                color: #ffffff;
+                &:hover{cursor: pointer;}
+            }             
+            ul{
+                width: 100%;
+                height: 60px;
+                border-bottom: 1px solid #e4e4e4;
+                overflow: hidden;
+                transition: 0.4s all;                
+                &:nth-of-type(even){
+                    background-color: #f9f9f9;
+                }
+                &:hover{
+                    background-color: #D9E8F8;
+                }
+                li{ 
+                    float: left;
+                    text-align: center;
+                    height: 60px;
+                    line-height: 60px;                      
+                    font-size: 14px;
+                    border-right: 1px solid #e4e4e4;                           
+                    color: #555555;
+                    &:nth-child(1){
+                        width: 6.75%;
+                        .checkItem{
+                            padding: 0 9px;
+                            background-color: #ffffff;
+                            border: solid 1px #cccccc; 
+                            &:hover{
+                                cursor: pointer;
+                            }
+                        }                       
+                    }
+                    &:nth-child(2){
+                        width: 16.03%;
+                    }
+                    &:nth-child(3){
+                        padding: 0 10px;
+                        width: 28.69%;
+                        text-align: left;
+                    }
+                    &:nth-child(4){
+                        width: 16.03%;
+                    }
+                    &:nth-child(5){
+                        width: 16.03%;
+                    }
+                    &:nth-child(6){
+                        width: 16.03%;
+                        border-right: none;
+                        span, a{
+                            padding: 4px 8px;
+                            margin-right: 20px;
+                            background-color: #0096ff;
+                            border-radius: 2px;
+                            font-size: 14px;
+                            color: #ffffff;
+                            &:hover{cursor: pointer;}                          
+                        }
+                    }                           
+                }
+            }
+        }  
+        //无数据显示给予高度
+        .noDataWrap{
+            min-height: 460px
+        }  
+    }
+    //系统模板选择
+    .systemTempalteWrap{
+        .title{border-bottom: none}
+        .serchConditions{
+            margin: 20px;
+            input{
+                width: 300px;
+            }
+        }
+        //选中样式
+        .checkActivated{
+            background: url('~assets/images/check_true.png') no-repeat;
+            background-size: 100% 100%;
+            border: none !important;
+        }
+    }
+    
+
+}
+
+//修改element-ui UI样式集合
+//分页
+#myTempalte .pagination{
+    margin: 20px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    span{
+        padding: 3px 6px;
+        background-color: #ff3e08;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #ffffff;
+        &:hover{cursor: pointer;}
+    }
+    .checkAll{
+        margin: 0 43px 0 6px;
+        padding: 0 9px;
+        background-color: #ffffff;
+        border: solid 1px #cccccc; 
+    }
+    .el-pagination{
+        float: right;
+    }
+}
+// tabs默认样式
+#myTempalte /deep/ .el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
+    color: #ff3e08;
+    font-size: 16px;
+    background: #fff;
+    border-bottom: none;
+    height: 41px;
+    width: 90px;
+    border-right: 1px solid #ff3e08;
+    border-top: 1px solid #ff3e08;
+    border-left: 1px solid #ff3e08 !important;
+}
+#myTempalte /deep/ .el-tabs--card>.el-tabs__header{
+    border-bottom: 1px solid #cecece;
+}
+#myTempalte /deep/ .el-tabs__item:hover{
+    color: inherit;
+}
+#myTempalte /deep/ .el-tabs__item.is-active:hover{
+    color: #ff3e08;
+}
+#myTempalte /deep/ .el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border: none;
+}
+//tabs的每个标签
+#myTempalte /deep/ .el-tabs--card>.el-tabs__header .el-tabs__item{
+    border-right: 1px solid #cecece;
+    border-top: 1px solid #cecece;
+    margin-left: 4px;
+    background: #fafafa;
+    border-bottom: 1px solid #cecece;
+    width: 90px;
+    text-align: center;
+    padding: 0;
+    border-radius: 4px 4px 0 0;
+}
+//tabs的第一个标签
+#myTempalte /deep/ .el-tabs--card>.el-tabs__header .el-tabs__item:first-child{
+    border-left: 1px solid #cecece;
+    margin-left: 16px;
+}

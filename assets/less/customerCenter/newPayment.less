@@ -1,0 +1,242 @@
+#newPayment .ContensWrap{
+    background: #fff;
+}
+
+#newPayment .bodyContent{
+    margin-bottom: 84px;
+    padding-left: 30px;
+}
+#newPayment .productInfoWrap{
+    width: 1200px;
+    padding-top: 30px;
+    span{
+        color: #4d4d4d;
+    }
+    .orderPay{
+        font-size: 16px;
+    }
+    .productNum{
+        font-size: 16px;
+    }
+    .pDetail{
+        color: #359af8;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .moneyWord{
+        float: right;
+    }
+    .money{
+        float: right;
+        font-size: 20px;
+        color: #ff3e08;
+        position: relative;
+        top: -5px;
+    }
+}
+#newPayment .paymentWrap{
+    width: 1200px;
+    height: 100%;
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    label{
+            cursor: default;
+        }
+}
+#newPayment .paymentWrap .pay-list li{
+    width: 1140px;
+    height: 60px;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 30px;
+    line-height: 60px;
+    color: #333;
+    .img{
+        margin: 20px;
+        width: 20px;
+        height: 20px;
+        float: left;
+        cursor: pointer;
+        background: url(~assets/images/meal/unchecked.png);
+    }
+    .img.active{
+        background: url(~assets/images/meal/selected.png);
+    }
+    .img.forbidden{
+        cursor: default;
+        background: url(~assets/images/meal/notOptional.png);
+    }
+}
+#newPayment .zeroPay .img{
+    background: url(~assets/images/meal/selected.png);
+}
+
+#newPayment .payIcon0{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 15px 0;
+    background: url(~assets/images/meal/coin-mode.png);
+}
+#newPayment .payStyle{
+    display: inline-block;
+    width: 8%;
+    font-size: 16px;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 60px;
+}
+#newPayment .payStyleDes{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+#newPayment .shouldGiveM{
+    float: right;
+    font-size: 16px;
+    line-height: 60px;
+    i{
+        color: #ff3e08;
+    }
+}
+#newPayment .noPay{
+    font-size: 16px;
+    color: #999999;
+    float: right;
+    line-height: 60px;
+}
+#newPayment .payBtn{
+    width: 130px;
+    height: 40px;
+    background: #ff3e08;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px 0 87px 49px;
+    cursor: pointer;
+}
+#newPayment .payBtnBlack{
+    display: inline-block;
+    background: #ccc;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#newPayment .noMoney{
+    font-size: 16px;
+    color: #ff3e08;
+    line-height: 40px;
+    margin-left: 20px;
+}
+// 详情隐藏部分
+#newPayment .point{
+    width: 1200px;
+    height: 2px;
+    background: #969696;
+    margin: 20px 0;
+}
+#newPayment .detailTitle{
+    width: 1200px;
+    display: flex;
+    span{
+        flex: 1 1 auto;
+        font-size: 16px;
+        color: #666666;
+    }
+    span:nth-child(1){
+        margin-left: 20px;
+    }
+    span:nth-child(2){
+        text-align: center
+    }
+    span:nth-child(3){
+        text-align: right;
+        padding-right: 15px;
+    }
+}
+#newPayment .detailContent{
+    width: 1200px;
+    margin: 20px 0;
+    span{
+        font-size: 16px;
+        color: #333;
+    }
+    span:nth-child(1){
+        display: inline-block;
+        width: 573px;
+        margin-left: 20px;
+    }
+    span:nth-child(3){
+        float: right;
+        padding-right: 15px;
+    }
+}
+#newPayment .detailContent:nth-last-child(1){
+    padding-bottom: 10px;
+}
+// 微信支付弹窗
+#newPayment .wechatPayWrap{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:0px;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 999;
+    background-color:rgba(0, 0, 0, 0.4); 
+} 
+#newPayment .wechatPay{
+    width: 380px;
+    height: 380px;
+    background: #fff;
+    margin: 10% auto;
+
+    .wechatPtitle{
+        height: 39px;
+        background: #fcfcfd;
+        border-bottom: 1px solid #e8e8e9;
+        line-height: 39px;
+        span:nth-child(1){
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        span:nth-child(2){
+            display: inline-block;
+            width: 13px;
+            height: 12px;
+            background: url("~assets/images/meal/delet.png") no-repeat;
+            background-size: 13px 12px;
+            float: right;
+            margin-right: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+    }
+}
+#qr-code{
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+}
+#newPayment .paymoney{
+    width: 380px;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-left: 35%;
+    span{
+        color: #ff3e08;
+    }
+}
+#newPayment .paydes{
+    width: 380px;
+    color: #999999;
+    margin-left: 26%;
+    margin-top: 10px;
+}

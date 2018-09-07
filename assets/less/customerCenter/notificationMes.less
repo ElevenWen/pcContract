@@ -1,0 +1,199 @@
+#notificationMes .ContensWrap{
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    header{
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid #eee;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        padding-left: 19px;
+        float: left;
+    }
+    .deleteBtn{
+        margin-left: 50px;
+        width: 80px;
+        height: 36px;
+        background: #f83535;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 2px;
+    }
+    .chooseAll{
+        margin-left: 20px;
+        font-size: 16px;
+        color: #08a5ff;
+        cursor: pointer;
+    }
+    .appendSign{
+        color: #0090ff;
+        font-size: 16px;
+        float: right;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+
+#notificationMes .notificationMes{
+    .notificationMes-list li{
+        overflow: hidden;
+        height: 100px;
+        cursor: pointer;
+        .checkB{
+            width: 40px;
+            height: 100%;
+            float: left;
+            line-height: 100px;
+            .multipleChoices{
+                vertical-align: middle;
+                margin-left: 13px;
+                
+            }
+            input[type="checkbox"]{
+                background: url(../../images/meal/select_box_min.png) no-repeat;
+            }
+        }
+        .notificationMes-right{
+            height: 100%;
+            width: 1572px;
+            float: left;
+            border-bottom: 1px dashed #88abda;
+            overflow: hidden;
+            .img,.notificationMes-content,.checkDetail{
+                float: left;
+            }
+            .notificationMes-content{
+                height: 100%;
+            }
+            .img{
+                margin-right: 16px;
+                line-height: 100px;
+                img{
+                    vertical-align: middle;
+                }
+            }
+            .notificationMes-content .btn{
+                color: #0090ff;
+                cursor: pointer;
+            }
+            .content-detail{
+                overflow: hidden;
+                height: 45px;
+            }
+            p{
+               font-size: 16px;
+               color: #000000;
+               line-height: 100px;
+            }
+            .readed{
+                padding-top: 14px;
+                p{
+                    line-height: 37px;
+                }
+                
+            }
+            .unread{
+                color: #888888;
+                float: left;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .unread.active{
+                width: 700px;
+            }
+            .checkDetail{
+                font-size: 16px;
+                color: #0090ff;
+                margin-left: 29px;
+                padding-top: 12px;
+                cursor: pointer;
+            }
+            .dateShow{
+                float: right;
+                margin-right: 40px;
+                font-size: 16px;
+                color: #4d4d4d;
+                line-height: 100px;
+            }
+        }
+    }
+    
+    .noMore{
+        text-align: center;
+        font-size: 14px;
+        color: #999999;
+        margin-top: 20px;
+    }
+}
+
+//饿了么多选
+#notificationMes .notificationMes .el-checkbox{
+    margin-left: 13px;
+}
+#notificationMes .notificationMes .el-checkbox .el-checkbox__inner{
+    border: none;
+    background: url(../../images/meal/select_box_min.png) no-repeat;
+}
+#notificationMes .notificationMes .el-checkbox .is-checked .el-checkbox__inner{
+    background: url(../../images/check_true.png) no-repeat;
+}
+#notificationMes .notificationMes .el-checkbox .el-checkbox__inner::after{
+    border: none;
+}
+#notificationMes .notificationMes .el-checkbox__label{
+    display: none;
+}
+
+//全选
+#notificationMes .chooseAll .el-checkbox__input{
+    display: none;
+}
+#notificationMes .chooseAll .el-checkbox__label{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #08a5ff;
+    cursor: pointer;
+}
+
+//分页
+#notificationMes .pagination{
+    margin-top: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    .el-pagination{
+        float: right;
+    }
+}
+
+//无数据
+#notificationMes .metadata{
+    width: 152px;
+    margin: 100px auto;
+    img{
+        width: 151px;
+        height: 136px;
+    }
+    p{
+        font-size: 14px;
+        color: #888888;
+        margin-top: 19px;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    button{
+        width: 140px;
+        height: 36px;
+        background: #ff3e08;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 2px;
+    }
+}

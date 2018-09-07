@@ -1,0 +1,445 @@
+.homeWrap .ContensWrap > div {
+  width: 100%;
+}
+.homeWrap .ContensWrap .topConten {
+  display: flex;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100%;
+}
+.homeWrap .ContensWrap .topConten > div {
+  height: 100%;
+  background: #ffffff;
+}
+.homeWrap .ContensWrap .topConten .myContractFile {
+  margin-right: 20px;
+  flex: 45%;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul {
+  display: flex;
+  height: calc(100% -60px);
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li .circular {
+  margin: 60px auto 28px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  font-family: MicrosoftYaHei;
+  font-size: 40px;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li .circular:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li span {
+  font-size: 18px;
+  color: #000000;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li:nth-child(1) .circular {
+  color: #4eaaff;
+  border: solid 2px #4eaaff;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li:nth-child(2) .circular {
+  color: #2dc180;
+  border: solid 2px #2dc180;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li:nth-child(3) .circular {
+  color: #ff630e;
+  border: solid 2px #ff630e;
+}
+.homeWrap .ContensWrap .topConten .myContractFile ul li:nth-child(4) .circular {
+  color: #5d5d5d;
+  border: solid 2px #5d5d5d;
+}
+.homeWrap .ContensWrap .topConten .creatContra {
+  margin-right: 20px;
+  flex: 28%;
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls {
+  position: relative;
+  width: 100%;
+  height: calc(40%);
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls > div {
+  width: 140px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 23px;
+  font-size: 18px;
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls > div:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls .update {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  background-color: #ff3e08;
+  color: #ffffff;
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls .update #file {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 140px;
+  height: 46px;
+  cursor: pointer;
+  z-index: 20;
+  opacity: 0;
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls .useContra {
+  position: absolute;
+  top: 134px;
+  left: 30px;
+  background-color: #ffffff;
+  border: solid 1px #ff3e08;
+  color: #ff3e08;
+}
+.homeWrap .ContensWrap .topConten .creatContra .controls .right_bg {
+  position: absolute;
+  top: 36px;
+  right: 40px;
+  width: 200px;
+  height: 168px;
+}
+.homeWrap .ContensWrap .topConten .userMessge {
+  flex: 24.4%;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content {
+  margin: 0 !important;
+  position: relative;
+  width: 100%;
+  height: calc(40%);
+  padding: 30px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content > div {
+  width: 100%;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge {
+  height: 80px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .headerPortrait {
+  margin-right: 18px;
+  width: 80px;
+  height: 80px;
+  vertical-align: top;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des {
+  display: inline-block;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p {
+  font-family: MicrosoftYaHei;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(1) .name {
+  font-size: 16px;
+  color: #000000;
+  margin-right: 20px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(1) .state {
+  padding: 2px 6px;
+  font-size: 12px;
+  color: #fefefe;
+  background-color: #ff7e00;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(2) {
+  padding: 18px 0;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(2) .phone {
+  font-size: 14px;
+  color: #000000;
+  margin-right: 20px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(2) .modify {
+  font-size: 14px;
+  color: #0096ff;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(2) .modify:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(3) .email {
+  margin-right: 12px;
+  color: #000000;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(3) .mailBox {
+  font-size: 14px;
+  color: #0096ff;
+  margin-right: 20px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .messge .des p:nth-child(3) .mailBox:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .twoBtn {
+  position: absolute;
+  bottom: 30px;
+  height: 46px;
+  line-height: 46px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .twoBtn span {
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  padding: 12px 48px;
+  border-radius: 23px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .twoBtn span:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .twoBtn .bt_userMsg {
+  background-color: #ff3e08;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.homeWrap .ContensWrap .topConten .userMessge .content .twoBtn .myTaocan {
+  background-color: #ffffff;
+  border-radius: 23px;
+  border: solid 1px #ff3e08;
+  color: #ff3e08;
+}
+.homeWrap .ContensWrap .bottomConten {
+  display: flex;
+  height: 502px;
+}
+.homeWrap .ContensWrap .bottomConten > div {
+  height: 100%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile {
+  background: #ffffff;
+  margin-right: 20px;
+  flex: 74.4%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .title {
+  border-bottom: none;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel {
+  position: relative;
+  width: calc(68%);
+  margin: 10px 16px;
+  border: solid 1px #e1e1e1;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle {
+  width: 100%;
+  height: 36px;
+  background-color: #efefef;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li {
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  font-size: 14px;
+  color: #555555;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li:nth-child(1) {
+  width: 6.75%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li:nth-child(2) {
+  width: 28.69%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li:nth-child(3) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li:nth-child(4) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li:nth-child(5) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tabelTitle ul li:nth-child(6) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap {
+  width: 100%;
+  height: 360px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap img {
+  margin: 30px;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap p {
+  color: #888888;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e4e4e4;
+  overflow: hidden;
+  transition: 0.4s all;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul:hover {
+  background-color: #D9E8F8;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li {
+  float: left;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  border-right: 1px solid #e4e4e4;
+  color: #555555;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(1) {
+  width: 6.75%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(2) {
+  padding: 0 10px;
+  width: 28.69%;
+  text-align: left;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(3) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(4) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(5) {
+  width: 16.03%;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) {
+  width: 16.03%;
+  border-right: none;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) span,
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) a {
+  padding: 4px 8px;
+  background-color: #0096ff;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) span:hover,
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) a:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) span:nth-child(1),
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .tablelistWrap ul li:nth-child(6) a:nth-child(1) {
+  margin-right: 20px;
+}
+.homeWrap .ContensWrap .bottomConten .latelyFile .contenTabel .noTableData {
+  height: 360px;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap {
+  flex: 24.4%;
+  overflow: hidden;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege {
+  float: left;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  background: #ffffff;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .content {
+  margin: 0 !important;
+  position: relative;
+  width: 100%;
+  height: calc(40%);
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .content .gsbg {
+  background: url('~assets/images/home/dzqz_bg.png') no-repeat;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .content .grbg {
+  background: url('~assets/images/home/dzqz_grbg.png') no-repeat;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .content .showImg {
+  margin: 20px auto 13px;
+  width: 300px;
+  height: 180px;
+  background-size: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 180px;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .content .showImg:hover {
+  cursor: pointer;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .noDataConten {
+  text-align: center;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .noDataConten .noImg {
+  margin: 30px auto 20px;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .labelManege .noDataConten .nodataDes {
+  font-size: 14px;
+  color: #888888;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .otherApply {
+  float: left;
+  width: 100%;
+  height: 182px;
+  background: #ffffff;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .otherApply ul {
+  display: flex;
+  height: calc(100% -60px);
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .otherApply ul li {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .otherApply ul li .icon {
+  margin: 23px auto 10px;
+  width: 50px;
+  height: 50px;
+}
+.homeWrap .ContensWrap .bottomConten .twoOtherWrap .otherApply ul li a {
+  font-size: 16px;
+  color: #000000;
+}
+.homeWrap .ContensWrap .title {
+  position: relative;
+  padding-left: 20px;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.homeWrap .ContensWrap .title .name {
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 18px;
+  color: #000000;
+}
+.homeWrap .ContensWrap .title .more {
+  position: absolute;
+  right: 20px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  color: #ff3e08;
+}
+.homeWrap .ContensWrap .title .more:hover {
+  cursor: pointer;
+}
+.homeWrap .content /deep/ .el-carousel {
+  height: 100%;
+}
+.homeWrap .content /deep/ .el-carousel .el-carousel__container {
+  height: 240px;
+}
+.homeWrap .content /deep/ .el-carousel__button {
+  background: #dbdbdb;
+}
+.homeWrap .content /deep/ .el-carousel__arrow {
+  height: 30px;
+  width: 30px;
+}

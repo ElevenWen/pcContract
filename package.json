@@ -1,0 +1,51 @@
+{
+  "name": "pcdzht",
+  "version": "1.0.0",
+  "description": "微企宝电子合同",
+  "author": "wqb",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "localhost",
+      "port": "10010"
+    }
+  },
+  "scripts": {
+    "devNet": "cross-env _NODE_ENV=devNet nuxt",
+    "buildNet": "cross-env _NODE_ENV=startNet   nuxt build",
+    "startNet": "cross-env _NODE_ENV=startNet  nuxt start",
+    "devCom": "cross-env _NODE_ENV=devCom nuxt",
+    "buildCom": "cross-env _NODE_ENV=startCom   nuxt build",
+    "startCom": "cross-env _NODE_ENV=startCom   nuxt start",
+    "generateNet": "cross-env _NODE_ENV=generateNet nuxt generate",
+    "generateCom": "cross-env _NODE_ENV=generateCom nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
+    "crypto-js": "^3.1.9-1",
+    "element-ui": "^2.4.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "lru-cache": "^4.1.3",
+    "nuxt": "^1.4.0",
+    "sass-resources-loader": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "backpack-core": "^0.7.0",
+    "css": "^2.2.3",
+    "css-loader": "^1.0.0",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "^4.7.0",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "vue-style-loader": "^4.1.0"
+  }
+}

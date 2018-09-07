@@ -1,0 +1,326 @@
+.ContensWrap{
+    background: #fff;
+}
+// 修改邮箱
+    .emailAuthen{
+        padding: 20px 30px;
+        // 邮箱步骤跟踪
+        .search_R{
+            width: 420px;
+            height: 50px;
+            margin: 10px 0 0 20px;
+            padding: 22px 0;
+            .border_one , .border_tow , .border_three{
+                border: 2px solid #fc7b03;
+                width: 203px;
+                margin-left: 5px;
+                float: left;
+                .border_oneL ,.border_oneR ,{
+                    height: 50px;
+                    float: left;
+                    margin: -10px -16px;
+                    position: absolute;
+                    span:nth-child(1){
+                        margin: 0 auto;
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        text-align: center;
+                        line-height: 22px;
+                        color: #FFF;
+                        margin-left: 13px;
+                        border-radius: 50px;
+                        background: #fc7b03;
+                    }
+                    span:nth-child(2){
+                        display: block;
+                        color: #fc7b03;
+                        margin-top: 5px;
+                        text-align: center;
+                    }
+                }
+                .border_oneR{
+                    span:nth-child(1),span:nth-child(2){
+                        color: #ccc;
+                    }
+                    span:nth-child(1){
+                        background: #ebebeb;
+                    }
+                }
+                .border_oneR{
+                    height: 50px;
+                    margin: -10px 180px;
+                    position: absolute;
+                }
+            }
+            .border_tow , .border_three{
+                width: 203px;
+                margin-left: 5px;
+                float: left;
+                border:2px solid #ebebeb;
+                .border_oneL ,.border_oneR{
+                    span:nth-child(1){
+                        background: #ebebeb;
+                    }
+                    span:nth-child(2){
+                        color: #ccc;
+                    }
+                }
+                .border_oneR{
+                    margin: -10px 180px;
+                }
+            }
+        }
+        .emailAuthen_T{
+            margin: 30px 0 0 12px;
+            span:nth-child(1){
+                color: #4d4d4d;
+                font-size: 16px;
+                padding-right: 15px;
+            }
+            span:nth-child(2){
+                color: #8c8c8c;
+                font-size: 12px;
+            }
+        }
+        .emailAuthen_C{
+            width: 475px;
+            height: 168px;
+            margin: 30px 0 0 40px;
+            .newTel{
+                width: 150px;
+            }
+            span:nth-child(1),
+            span:nth-child(3){
+                width: 76px;
+                line-height: 40px;
+            }
+            span:nth-child(2){
+                float: none;
+            }
+            .firstGetCode,.secondGetCode{
+                border: 1px solid #ccc;
+                width: 100px;
+                float: right;
+                cursor: pointer;
+                background: #e6e6e6;
+                margin-right: 138px;
+                line-height: 40px;
+                text-align: center;
+            }
+            .countdown{
+                color: #089fff;
+            }
+            span{
+                display: block;
+                float: left;
+                color: #4d4d4d;
+                margin-bottom: 20px;
+                height: 40px;
+                input{
+                    width:260px;
+                    height: 40px;
+                    padding-left: 5px;
+                    border: 1px solid #ccc;
+                }
+                .yzCode{
+                    width: 150px;
+                }
+                .pasInput{
+                    width: 280px;
+                }
+                label{
+                    font-size: 12px;
+                    padding-left: 15px;
+                    color: #ff3e08;
+                    img{
+                        vertical-align: sub;
+                    }
+                }
+            }
+            button{
+                width: 130px;
+                height: 38px;
+                border-radius: 4px;
+                margin: 10px 20px 0 75px;
+                color: #FFF;
+                background: #ff3e08;
+            }
+        }
+        .secondMail{
+            width: 475px;
+            height: 168px;
+            margin: 30px 0 0 40px;
+            span:nth-child(1){
+                width: 76px;
+                line-height: 40px;
+            }
+            span{
+                display: block;
+                float: left;
+                color: #4d4d4d;
+                margin-bottom: 20px;
+                height: 40px;
+                input{
+                    width:260px;
+                    height: 40px;
+                    padding-left: 5px;
+                    border: 1px solid #ccc;
+                }
+            }
+            button{
+                width: 82px;
+                height: 28px;
+                border-radius: 4px;
+                margin: 10px 20px 0 75px;
+                color: #FFF;
+                background: #ff3e08;
+            }
+        }
+        .email_success{
+            width: 46px;
+            height: 46px;
+            margin: 40px 0 0 65px;
+        }
+        .emailWord{
+            font-size: 24px;
+            margin-left: 15px;
+            position: relative;
+            top: -16px;
+        }
+        .email_grade_wrap{
+            margin:35px 0 0 80px;
+        }
+        .email_grade{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .grade,.email_grade_img{
+            display: inline-block;
+        }
+        .grade{
+            font-size: 16px;
+            color: #fc7b03;
+        }
+        .email_grade_img{
+            margin-left: 15px;
+        }
+        .email_tips{
+            margin:30px 0 0 20px;
+        }
+    }
+//第二步
+#secondSteps .secondStep{
+    color: white;
+    background: #fc7b03;
+}
+#secondSteps .secondStepWord{
+    color: #fc7b03;
+}
+
+
+// 邮箱的模态窗口
+.emailBox{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 999;
+    background-color:rgba(0, 0, 0, 0.4); 
+    overflow: hidden;
+}
+.box{
+    width: 480px;
+    height: 278px;
+    background-color: #fff;
+    margin: 300px auto;
+}
+.title{
+    height: 40px;
+    border-bottom: 1px solid #E8E8E9;
+    margin-left: 19px;
+    line-height: 39px;
+    font-size: 16px;
+    background: #FCFCFD;
+}
+.del{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("~assets/images/revisePhone/delet.png");
+    background-size: 12px 12px;
+    float: right;
+    margin: 13px 20px 0 0; 
+    cursor: pointer;
+}
+.boxContent,.boxContent2{
+    margin: 50px 100px 0 88px;
+    font-size: 16px;
+    line-height: 15px;
+}
+.boxContent2{
+    margin: 20px 0px 0 170px;
+}
+.boxBtn{
+    width: 288px;
+    height: 40px;
+    background: #ff3e08;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    margin: 45px 0 0 88px;
+}
+
+
+//验证失败/成功
+#checkEmail .right_frame {
+  width: 1018px;
+  height: 467px;
+  background: #fff;
+}
+#checkEmail .emailAuthen {
+  display: block !important;
+}
+#checkEmail .secondStep,
+#checkEmail .thirdStep {
+  background: #fc7b03 !important;
+  color: #fff !important;
+}
+#checkEmail .secondStepWord,
+#checkEmail .thirdStepWord {
+  color: #fc7b03 !important;
+}
+#checkEmail .border_three {
+  border: 2px solid #fc7b03 !important;
+}
+#checkEmail .errTitle {
+  margin: 90px 0 0 300px;
+  img {
+    width: 46px;
+    height: 46px;
+    background-size: 100%;
+  }
+  span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+}
+#checkEmail .errDetail {
+  margin-top: 10px;
+  margin-left: 362px;
+  div {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  div:nth-child(1) {
+    font-size: 16px;
+  }
+}

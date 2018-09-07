@@ -1,0 +1,24 @@
+.commonWrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #f0f0f5;
+  min-width: 1900px;
+}
+.commonWrap .middleWrap {
+  display: flex;
+  width: 100%;
+  height: calc(22%);
+  overflow: hidden;
+}
+.commonWrap .middleWrap .leftNavWrap {
+  flex: 12.5;
+}
+.commonWrap .middleWrap .ContensWrap {
+  flex: 88.5;
+  margin: 20px 20px 0 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
